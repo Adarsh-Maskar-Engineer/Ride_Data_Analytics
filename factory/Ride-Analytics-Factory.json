@@ -1,0 +1,15 @@
+{
+	"name": "Ride-Analytics-Factory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2bcb3728-39ab-4c3b-8d64-3c2074da8a6d",
+		"tenantId": "f1b1ba39-6263-4744-9de9-9927d503127f"
+	}
+}
