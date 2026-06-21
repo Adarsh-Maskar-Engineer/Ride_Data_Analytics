@@ -1,0 +1,19 @@
+{
+	"name": "ds_azure_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ridesJson",
+				"fileSystem": "configridejson"
+			}
+		},
+		"schema": {}
+	}
+}

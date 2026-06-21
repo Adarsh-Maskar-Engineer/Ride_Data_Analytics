@@ -1,0 +1,26 @@
+{
+	"name": "ds_github",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_github",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"fileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@concat('Adarsh-Maskar-Engineer/Ride_Data_Analytics/main/Data/', dataset().fileName)",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	}
+}
