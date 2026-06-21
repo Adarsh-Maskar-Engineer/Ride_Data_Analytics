@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@concat('Adarsh-Maskar-Engineer/Ride_Data_Analytics/main/Data/', dataset().fileName, '.json')",
+					"value": "@concat('Adarsh-Maskar-Engineer/Ride_Data_Analytics/refs/heads/main/Data/', dataset().fileName, '.json')",
 					"type": "Expression"
 				}
 			}
